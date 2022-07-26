@@ -1,12 +1,12 @@
 {
-  "name": "@twilio-labs/plugin-rtc",
-  "version": "0.8.3",
-  "description": "A Twilio-CLI plugin for real-time communication apps",
+  "name": "@twilio-labs/plugin-rtc-extended",
+  "version": "0.8.4",
+  "description": "A Twilio-CLI plugin for real-time communication apps. WinTech Extended version.",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/twilio-labs/plugin-rtc",
+  "repository": "https://github.com/jwasden/plugin-rtc-extended",
   "scripts": {
     "test": "TZ=utc jest -i",
     "postpack": "rm -f oclif.manifest.json",

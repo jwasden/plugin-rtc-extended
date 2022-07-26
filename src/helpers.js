@@ -205,7 +205,7 @@ TWILIO_API_SECRET = the secret for the API Key`);
     env: {
       TWILIO_API_KEY_SID: this.twilioClient.username,
       TWILIO_API_KEY_SECRET: this.twilioClient.password,
-      API_PASSCODE: pin,
+      API_PASSCODE: 7770777,
       API_PASSCODE_EXPIRY: expiryTime,
       ROOM_TYPE: this.flags['room-type'],
       CONVERSATIONS_SERVICE_SID: conversationServiceSid,
